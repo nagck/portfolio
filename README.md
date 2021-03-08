@@ -39,7 +39,7 @@ Your app is ready to be deployed!
 
 ## Screenshots of the application:
 
-![image](assets/portfolio.png)
+![image](src/assets/portfolio.png)
 
 
 ## Link to functional application deployed on GitHub Pages:
