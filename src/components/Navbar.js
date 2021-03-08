@@ -13,7 +13,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
       <div className="container">
 
-        <a className="navbar-brand" href="home"><img className="logo" src={logo} alt="Logo.." /></a>
+        <a className="navbar-brand" href="#"><img className="logo" src={logo} alt="Logo.." /></a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <FontAwesomeIcon icon={faBars} style={{ color: "#fff" }} />
         </button>
