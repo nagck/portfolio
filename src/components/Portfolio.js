@@ -3,8 +3,8 @@ import employeedir from "../assets/employeedir.png";
 import novelty from "../assets/novelty.png";
 import burger from "../assets/burger.png";
 import pairings from "../assets/ppairings.jpg";
-//import readmegen from "../assets/readmegen.png";
 import weather from "../assets/weather.png";
+import readmegen from "../assets/readmegen.png";
 // FONTAWESOME IMPORTS
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
@@ -131,6 +131,28 @@ const Portfolio = () => {
     fadeInSpeed: 500
   }
 
+  // Readme Generator
+  const openPopupboxReadme = () => {
+    const content = (
+      <>
+        <img className="portfolio-image-popupbox" src={weather} alt="Professional Readme Generator..." />
+        <p>This is a command-line node.js application that dynamically generates a professional README.md file from a user's input using the Inquirer package.</p>
+        <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://drive.google.com/file/d/1QwOkgeKeR0LG1bDKu8QuZbkwwO6TjKNq/view?usp=sharing", "_blank")}>https://drive.google.com/file/d/1QwOkgeKeR0LG1bDKu8QuZbkwwO6TjKNq/view?usp=sharing</a>
+        <br />
+        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/nagck/readmegen", "_blank")}>https://github.com/nagck/readmegen</a>
+      </>
+    )
+    PopupboxManager.open({ content })
+  }
+
+  const popupboxConfigReadme = {
+    titleBar: {
+      enable: true,
+      text: "Professional Readme Generator.."
+    },
+    fadeIn: true,
+    fadeInSpeed: 500
+  }
 
   return (
     <div id="portfolio" className="portfolio-wrapper">
@@ -171,6 +193,14 @@ const Portfolio = () => {
             <div className="overflow"></div>
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
           </div>
+          {/* - */}
+
+          <div className="portfolio-image-box" onClick={openPopupboxReadme}>
+            <img className="portfolio-image" src={readmegen} alt="Professional README Generator.." />
+            <div className="overflow"></div>
+            <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+            {/* - */}
+          </div>
         </div>
       </div>
       
@@ -179,6 +209,7 @@ const Portfolio = () => {
       <PopupboxContainer {...popupboxConfigBurger} />
       <PopupboxContainer {...popupboxConfigPairings} />
       <PopupboxContainer {...popupboxConfigWeather} />
+      <PopupboxContainer {...popupboxConfigReadme} />
     </div>
   )
 }
