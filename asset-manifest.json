@@ -1,31 +1,32 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.35d154f5.chunk.css",
-    "main.js": "/portfolio/static/js/main.dd9f6961.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.dd9f6961.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.6e850188.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.6e850188.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.a9f76519.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.a9f76519.js.map",
     "static/css/2.8c334d8d.chunk.css": "/portfolio/static/css/2.8c334d8d.chunk.css",
-    "static/js/2.fbfac0e4.chunk.js": "/portfolio/static/js/2.fbfac0e4.chunk.js",
-    "static/js/2.fbfac0e4.chunk.js.map": "/portfolio/static/js/2.fbfac0e4.chunk.js.map",
+    "static/js/2.6e809efa.chunk.js": "/portfolio/static/js/2.6e809efa.chunk.js",
+    "static/js/2.6e809efa.chunk.js.map": "/portfolio/static/js/2.6e809efa.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/2.8c334d8d.chunk.css.map": "/portfolio/static/css/2.8c334d8d.chunk.css.map",
     "static/css/main.35d154f5.chunk.css.map": "/portfolio/static/css/main.35d154f5.chunk.css.map",
-    "static/js/2.fbfac0e4.chunk.js.LICENSE.txt": "/portfolio/static/js/2.fbfac0e4.chunk.js.LICENSE.txt",
+    "static/js/2.6e809efa.chunk.js.LICENSE.txt": "/portfolio/static/js/2.6e809efa.chunk.js.LICENSE.txt",
     "static/media/burger.305df11f.png": "/portfolio/static/media/burger.305df11f.png",
     "static/media/employeedir.6716dcea.png": "/portfolio/static/media/employeedir.6716dcea.png",
     "static/media/App.css": "/portfolio/static/media/fullstack.cfe89ff2.jpg",
     "static/media/nagck.b6df5a49.jpg": "/portfolio/static/media/nagck.b6df5a49.jpg",
     "static/media/novelty.9d6eac56.png": "/portfolio/static/media/novelty.9d6eac56.png",
     "static/media/ppairings.7b8b73f0.jpg": "/portfolio/static/media/ppairings.7b8b73f0.jpg",
+    "static/media/readmegen.c44684fd.png": "/portfolio/static/media/readmegen.c44684fd.png",
     "static/media/resume-icon.e98d1dc4.jpg": "/portfolio/static/media/resume-icon.e98d1dc4.jpg",
     "static/media/weather.94920c66.png": "/portfolio/static/media/weather.94920c66.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a9f76519.js",
     "static/css/2.8c334d8d.chunk.css",
-    "static/js/2.fbfac0e4.chunk.js",
+    "static/js/2.6e809efa.chunk.js",
     "static/css/main.35d154f5.chunk.css",
-    "static/js/main.dd9f6961.chunk.js"
+    "static/js/main.6e850188.chunk.js"
   ]
 }
