@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "NOVELty",
+        "image": "novelty.png",
+        "description": "NOVELty is one-stop shop for keeping track of all the books you are reading/read, get personalized book recommendations and participate in your book reading community by sharing the book that you like and participate in book reviews.",
+        "tech": "Node, Express, Passport, Handlebars, MySQL, HTML5, CSS3, JavaScript, APIs, MVC",
+        "github": "https://github.com/nagck/NOVELty",
+        "site": "https://novelty.herokuapp.com"
+    },
+    {
+        "id": 2,
+        "name": "Eat-Da-Burger!",
+        "image": "burger.png",
+        "description": "Eat-Da-Burger! (Burger Logger) is a restaurant app that lets users input the names of burgers they'd like to eat. The application was created with MySQL, Node, Express, Handlebars and ORM, following the MVC design pattern - Node and MySQL to query and route data, and Handlebars to generate your HTML.",
+        "tech": "Node, Express, Handlebars, MySQL, HTML5, CSS3, JavaScript",
+        "github": "https://github.com/nagck/burger",
+        "site": "https://burger-loggernk.herokuapp.com/"
+    },
+    {
+        "id": 3,
+        "name": "Perfect Pairings",
+        "image": "ppairings.jpg",
+        "description": "Ever scrolled through Uber Eats, Foodora or Ritual and couldn't make a decision you needed a drink? PerfectPairings will provide you with delicious food options and pair your selection with the perfect drink. Still not convinced? A GIF will Convince!. This is a perfect food and drink pairing web application",
+        "tech": "HTML5, CSS3, JavaScript, jQuery, Bulma CSS Framework, APIs: Spoonacular and Giphy",
+        "github": "https://github.com/nagck/perfectpairings",
+        "site": "https://nagck.github.io/perfectpairings"
+    },
+    {
+        "id": 4,
+        "name": "Note Taker (Express.js)",
+        "image": "note-taker.png",
+        "description": "The Note Taker application can be used to write and save notes. The application uses an Express.js back end and will save and retrieve note data from a JSON file. The application can be used to write and save your notes; organize your thoughts and keep track of tasks you need to complete.",
+        "tech": "Node.js, Express, npm, JavaScript, CSS Bootstrap, HTML5",
+        "github": "https://github.com/nagck/note-taker",
+        "site": "https://floating-wave-08076.herokuapp.com/"
+    },
+    {
+        "id": 5,
+        "name":"Node.js: Professional README Generator",
+        "image": "readmegen.png",
+        "description": "This is a command-line node.js application that dynamically generates a professional README.md file from a user's input using the Inquirer package.",
+        "tech": "JavaScript, Node.js, npm, Inquirer",
+        "github": "https://github.com/nagck/readmegen",
+        "site": "https://drive.google.com/file/d/1QwOkgeKeR0LG1bDKu8QuZbkwwO6TjKNq/view?usp=sharing"
+    },
+    {
+        "id": 6,
+        "name":"Weather Dashboard",
+        "image": "weather.png",
+        "description": "This is a weather dashboard application that allows a user to see current and 5-day weather outlook for multiple cities. User can search for a city to view current weather conditions and 5-day forecast for that city. The current weather conditions include the temperature, the humidity, the wind speed, and the UV index. The 5-day forecast displays the date, an icon representation of weather conditions, the temperature, and the humidity. User can click on a city in the search history to view current and future weather conditions for that city.",
+        "tech": "HTML5, CSS3, JavaScript, jQuery, MomentJS, OpenWeather API",
+        "github": "https://github.com/nagck/weatherdashboard",
+        "site": "https://nagck.github.io/weatherdashboard"
+    }    
+]
