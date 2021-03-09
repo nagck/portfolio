@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithubSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelopeSquare, faPhoneSquare } from '@fortawesome/free-solid-svg-icons';
 import resumeIcon from "../assets/resume-icon.jpg";
+import { Link } from "react-scroll";
 // import {
 //   // FacebookShareButton,
 //   // FacebookIcon,
@@ -35,15 +36,28 @@ const Footer = () => {
           <div className="col-lg-3 col-md-2 col-sm-6">
             <div className="row">
               <div className="col">
-                <a href="home" className="footer-nav">Home</a>
+                {/* <a href="home" className="footer-nav">Home</a> */}
+                <a className="footer-nav">
+                <Link smooth={true} to="home" href="#">Home <span className="sr-only">(current)</span></Link>
+                </a>
                 <br />
-                <a href="about" className="footer-nav">About Me</a>
+                {/* <a href="about" className="footer-nav">About Me</a> */}
+                <a className="footer-nav">
+                <Link smooth={true} to="about" offset={-110} >About me</Link>
+                </a>
                 <br />
               </div>
               <div className="col">
-                <a href="portfolio" className="footer-nav">Portfolio</a>
+                {/* <a href="portfolio" className="footer-nav">Portfolio</a> */}
+                <a className="footer-nav">
+                <Link smooth={true} to="portfolio" offset={-110} >Portfolio</Link>
+                </a>
                 <br />
-                <a href="contacts" className="footer-nav">Contact</a>
+                {/* <a href="contacts" className="footer-nav">Contact</a> */}
+                <a className="footer-nav">
+                <Link smooth={true} to="contacts" offset={-110} >Contact</Link>
+                </a>
+
               </div>
             </div>
           </div>
