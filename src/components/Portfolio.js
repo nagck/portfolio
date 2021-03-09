@@ -28,12 +28,20 @@ const Portfolio = () => {
         </>
       )
       PopupboxManager.open({ content })
+        PopupboxManager.update({
+          content,
+          config: {
+            titleBar: {
+              text: "Employee Directory"
+            },
+          }
+        })
     }
   
     const popupboxConfigEmployee = {
       titleBar: {
         enable: true,
-        text: "Employee-Directory"
+        text: "Employee Directory"
       },
       fadeIn: true,
       fadeInSpeed: 500
@@ -51,6 +59,14 @@ const Portfolio = () => {
       </>
     )
     PopupboxManager.open({ content })
+      PopupboxManager.update({
+        content,
+        config: {
+          titleBar: {
+            text: "NOVELty"
+          },
+        }
+      })
   }
 
   const popupboxConfigNovelty = {
@@ -74,6 +90,14 @@ const Portfolio = () => {
       </>
     )
     PopupboxManager.open({ content })
+      PopupboxManager.update({
+        content,
+        config: {
+          titleBar: {
+            text: "Eat-Da-Burger!"
+          },
+        }
+      })
   }
 
   const popupboxConfigBurger = {
@@ -97,6 +121,14 @@ const Portfolio = () => {
       </>
     )
     PopupboxManager.open({ content })
+      PopupboxManager.update({
+        content,
+        config: {
+          titleBar: {
+            text: "Perfect Pairings Project"
+          },
+        }
+      })
   }
 
   const popupboxConfigPairings = {
@@ -112,7 +144,7 @@ const Portfolio = () => {
   const openPopupboxWeather = () => {
     const content = (
       <>
-        <img className="portfolio-image-popupbox" src={weather} alt="Weather Dashboard Project..." />
+        <img className="portfolio-image-popupbox" src={weather} alt="Weather Dashboard Project" />
         <p>This is a weather dashboard application that allows a user to see current and 5-day weather outlook for multiple cities. User can search for a city to view current weather conditions and 5-day forecast for that city. The current weather conditions include the temperature, the humidity, the wind speed, and the UV index. The 5-day forecast displays the date, an icon representation of weather conditions, the temperature, and the humidity. User can click on a city in the search history to view current and future weather conditions for that city.</p>
         <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://nagck.github.io/weatherdashboard", "_blank")}>https://nagck.github.io/weatherdashboard/</a>
         <br />
@@ -120,12 +152,20 @@ const Portfolio = () => {
       </>
     )
     PopupboxManager.open({ content })
+      PopupboxManager.update({
+        content,
+        config: {
+          titleBar: {
+            text: "Weather Dashboard project"
+          },
+        }
+      })
   }
 
   const popupboxConfigWeather = {
     titleBar: {
       enable: true,
-      text: "Weather Dashboard project."
+      text: "Weather Dashboard project"
     },
     fadeIn: true,
     fadeInSpeed: 500
@@ -135,7 +175,7 @@ const Portfolio = () => {
   const openPopupboxReadme = () => {
     const content = (
       <>
-        <img className="portfolio-image-popupbox" src={weather} alt="Professional Readme Generator..." />
+        <img className="portfolio-image-popupbox" src={readmegen} alt="Professional Readme Generator" />
         <p>This is a command-line node.js application that dynamically generates a professional README.md file from a user's input using the Inquirer package.</p>
         <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://drive.google.com/file/d/1QwOkgeKeR0LG1bDKu8QuZbkwwO6TjKNq/view?usp=sharing", "_blank")}>https://drive.google.com/file/d/1QwOkgeKeR0LG1bDKu8QuZbkwwO6TjKNq/view?usp=sharing</a>
         <br />
@@ -143,12 +183,20 @@ const Portfolio = () => {
       </>
     )
     PopupboxManager.open({ content })
+      PopupboxManager.update({
+        content,
+        config: {
+          titleBar: {
+            text: "Professional Readme Generator"
+          },
+        }
+      })
   }
 
   const popupboxConfigReadme = {
     titleBar: {
       enable: true,
-      text: "Professional Readme Generator.."
+      text: "Professional Readme Generator"
     },
     fadeIn: true,
     fadeInSpeed: 500
@@ -199,7 +247,6 @@ const Portfolio = () => {
             <img className="portfolio-image" src={readmegen} alt="Professional README Generator.." />
             <div className="overflow"></div>
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
-            {/* - */}
           </div>
         </div>
       </div>

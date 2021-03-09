@@ -206,6 +206,7 @@ nav ul li {
 
 .portfolio-image {
   width: 15rem;
+  height: 10rem;
   border: 1px solid var(--primary-orange);
   padding: 0 0.5rem;
 }
