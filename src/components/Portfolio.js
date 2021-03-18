@@ -1,6 +1,7 @@
 import React from "react";
 import employeedir from "../assets/employeedir.png";
 import novelty from "../assets/novelty.png";
+import gbooks from "../assets/googlebooks.png";
 import burger from "../assets/burger.png";
 import pairings from "../assets/ppairings.jpg";
 import weather from "../assets/weather.png";
@@ -78,6 +79,38 @@ const Portfolio = () => {
     fadeInSpeed: 500
   }
 
+  // Google Books Search
+  const openPopupboxGbooks = () => {
+    const content = (
+      <>
+        <img className="portfolio-image-popupbox" src={gbooks} alt="Google Books" />
+        <p>Google Books Search is a React, Node/Express-based app and utilizes full MERN stack components. User can query and display books based on user searches. Users can save books to review or purchase later..</p>
+        <b>Live App</b> <a className="hyper-link" onClick={() => window.open("https://google-book-search-nk.herokuapp.com/", "_blank")}>https://google-book-search-nk.herokuapp.com/</a>
+        <br />
+        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/nagck/Google-Book-Search")}>https://github.com/nagck/Google-Book-Search</a>
+      </>
+    )
+    PopupboxManager.open({ content })
+      PopupboxManager.update({
+        content,
+        config: {
+          titleBar: {
+            text: "Google Books Search"
+          },
+        }
+      })
+  }
+
+  const popupboxConfigGbooks = {
+    titleBar: {
+      enable: true,
+      text: "Google Books Search"
+    },
+    fadeIn: true,
+    fadeInSpeed: 500
+  }
+
+  
   // Eat-Da-Burger!
   const openPopupboxBurger = () => {
     const content = (
@@ -222,6 +255,14 @@ const Portfolio = () => {
           </div>
           {/* - */}
 
+          <div className="portfolio-image-box" onClick={openPopupboxGbooks}>
+            <img className="portfolio-image" src={gbooks} alt="Google Books" />
+            <div className="overflow"></div>
+            <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+          </div>
+          {/* - */}
+          
+
           <div className="portfolio-image-box" onClick={openPopupboxBurger}>
             <img className="portfolio-image" src={burger} alt="Eat-Da-Burger!" />
             <div className="overflow"></div>
@@ -253,6 +294,7 @@ const Portfolio = () => {
       
       <PopupboxContainer {...popupboxConfigEmployee} />
       <PopupboxContainer {...popupboxConfigNovelty} />
+      <PopupboxContainer {...popupboxConfigGbooks} />
       <PopupboxContainer {...popupboxConfigBurger} />
       <PopupboxContainer {...popupboxConfigPairings} />
       <PopupboxContainer {...popupboxConfigWeather} />
