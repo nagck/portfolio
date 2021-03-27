@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.fca8e09e.chunk.css",
-    "main.js": "/portfolio/static/js/main.be12b509.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.be12b509.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.941cad23.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.941cad23.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.a9f76519.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.a9f76519.js.map",
     "static/css/2.8c334d8d.chunk.css": "/portfolio/static/css/2.8c334d8d.chunk.css",
@@ -16,7 +16,7 @@
     "static/media/employeedir.6716dcea.png": "/portfolio/static/media/employeedir.6716dcea.png",
     "static/media/App.css": "/portfolio/static/media/fullstack.cfe89ff2.jpg",
     "static/media/googlebooks.acdb41d1.png": "/portfolio/static/media/googlebooks.acdb41d1.png",
-    "static/media/jobtrack01.cf271ab3.png": "/portfolio/static/media/jobtrack01.cf271ab3.png",
+    "static/media/jobtrack01.47289744.png": "/portfolio/static/media/jobtrack01.47289744.png",
     "static/media/nagck.b6df5a49.jpg": "/portfolio/static/media/nagck.b6df5a49.jpg",
     "static/media/novelty.9d6eac56.png": "/portfolio/static/media/novelty.9d6eac56.png",
     "static/media/ppairings.7b8b73f0.jpg": "/portfolio/static/media/ppairings.7b8b73f0.jpg",
@@ -29,6 +29,6 @@
     "static/css/2.8c334d8d.chunk.css",
     "static/js/2.e73eb3d1.chunk.js",
     "static/css/main.fca8e09e.chunk.css",
-    "static/js/main.be12b509.chunk.js"
+    "static/js/main.941cad23.chunk.js"
   ]
 }
