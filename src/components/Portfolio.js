@@ -1,4 +1,5 @@
 import React from "react";
+import jobtrack from "../assets/jobtrack01.png";
 import employeedir from "../assets/employeedir.png";
 import novelty from "../assets/novelty.png";
 import gbooks from "../assets/googlebooks.png";
@@ -17,7 +18,38 @@ import "react-popupbox/dist/react-popupbox.css";
 
 const Portfolio = () => {
 
-    // Employee-Directory
+    // jobTrack
+    const openPopupboxJobtrack = () => {
+      const content = (
+        <>
+          <img className="portfolio-image-popupbox" src={jobtrack} alt="jobTrack" />
+          <p>The jobTrack application was created with MERN Stack. The application allows a user to help keep track of the several jobs they've applied to. The app offers a smooth, clean and easy-to-use user interface to help users focus on organizing the jobs they have applied for and upcoming interviews. We hope jobTrack helps you keep organized and find your dream job as soon as possible!.</p>
+          <b>Live App</b> <a className="hyper-link" onClick={() => window.open("https://jobtrack-search.herokuapp.com/", "_blank")}>https://jobtrack-search.herokuapp.com/</a>
+          <br />
+          <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/UofT-finalproject/JOBTrack")}>https://github.com/UofT-finalproject/JOBTrack</a>
+        </>
+      )
+      PopupboxManager.open({ content })
+        PopupboxManager.update({
+          content,
+          config: {
+            titleBar: {
+              text: "jobTrack"
+            },
+          }
+        })
+    }
+  
+    const popupboxConfigJobtrack = {
+      titleBar: {
+        enable: true,
+        text: "jobTrack"
+      },
+      fadeIn: true,
+      fadeInSpeed: 500
+    }
+
+  // Employee-Directory
     const openPopupboxEmployee = () => {
       const content = (
         <>
@@ -241,6 +273,13 @@ const Portfolio = () => {
         <h1 className="text-uppercase text-center py-5">Portfolio</h1>
         <div className="image-box-wrapper row justify-content-center">
           
+          <div className="portfolio-image-box" onClick={openPopupboxJobtrack}>
+            <img className="portfolio-image" src={jobtrack} alt="jobTrack" />
+            <div className="overflow"></div>
+            <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+          </div>
+          {/* - */}
+
           <div className="portfolio-image-box" onClick={openPopupboxEmployee}>
             <img className="portfolio-image" src={employeedir} alt="Employee-Directory" />
             <div className="overflow"></div>
@@ -292,6 +331,7 @@ const Portfolio = () => {
         </div>
       </div>
       
+      <PopupboxContainer {...popupboxConfigJobtrack} />
       <PopupboxContainer {...popupboxConfigEmployee} />
       <PopupboxContainer {...popupboxConfigNovelty} />
       <PopupboxContainer {...popupboxConfigGbooks} />
